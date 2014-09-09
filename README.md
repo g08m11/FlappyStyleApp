@@ -11,13 +11,13 @@ Swiftでのゲーム開発を行うトレーニングです。
 １・Xcode6 beta5を使ったゲーム開発
 
 ## 導入
-[１・プロジェクトを作成しましょう](https://github.com/g08m11/FlappyStyleApp/wiki/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%92%E4%BD%9C%E6%88%90%E3%81%97%E3%81%BE%E3%81%97%E3%82%87%E3%81%86)
+[１・ソースを落としてきましょう](https://github.com/g08m11/FlappyStyleApp/wiki/%EF%BC%91%E3%83%BB%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92%E8%90%BD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%82%87%E3%81%86)
 
-２・画像を配置しましょう
+[２・画像設定のためのソースコードを書きましょう](https://github.com/g08m11/FlappyStyleApp/wiki/%EF%BC%92%E3%83%BB%E7%94%BB%E5%83%8F%E8%A8%AD%E5%AE%9A%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E6%9B%B8%E3%81%8D%E3%81%BE%E3%81%97%E3%82%87%E3%81%86)
 
-３・画像の設定をしましょう
+[３・FlappyBirdを動かすためのソースコードを書きましょう](https://github.com/g08m11/FlappyStyleApp/wiki/%EF%BC%93%E3%83%BBFlappyBird%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99%E3%81%9F%E3%82%81%E3%81%AE%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E6%9B%B8%E3%81%8D%E3%81%BE%E3%81%97%E3%82%87%E3%81%86)
 
-４・Flappyを動かしましょう
+[４・iosシュミレーターを使ってFlappyを動かしましょう](https://github.com/g08m11/FlappyStyleApp/wiki/%EF%BC%94%E3%83%BBios%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6Flappy%E3%82%92%E5%8B%95%E3%81%8B%E3%81%97%E3%81%BE%E3%81%97%E3%82%87%E3%81%86)
 
 
 ## おまけ
@@ -27,10 +27,10 @@ Swiftでのゲーム開発を行うトレーニングです。
 ==============
 
 ## 導入
-１・プロジェクトを作成しよう
+[１・プロジェクトを作成しよう]
 
-２・Story Boardを使いましょう
+[２・Story Boardを使いましょう]
 
-３・表示させるURLを指定しましょう
+[３・表示させるURLを指定しましょう]
 
-４・WebViewAppを起動させませしょう
+[４・WebViewAppを起動させませしょう]
