@@ -12,6 +12,8 @@
 	<dict>
 		<key>6917724A5540354287E66C785DDF08E7A7EDACEA</key>
 		<string>https://github.com/fullstackio/FlappySwift.git</string>
+		<key>C8C4A468BD32F002F5100C8EA59AED0CC22746C3</key>
+		<string>https://github.com/g08m11/FlappyStyleApp.git</string>
 		<key>DDF8BD696B46438D82210EB8D44A6955CCC668E6</key>
 		<string>https://github.com/g08m11/sinatra.git</string>
 	</dict>
@@ -20,16 +22,18 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6917724A5540354287E66C785DDF08E7A7EDACEA</key>
+		<string>../../../FlappySwift</string>
+		<key>C8C4A468BD32F002F5100C8EA59AED0CC22746C3</key>
 		<string>../..</string>
 		<key>DDF8BD696B46438D82210EB8D44A6955CCC668E6</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/fullstackio/FlappySwift.git</string>
+	<string>https://github.com/g08m11/FlappyStyleApp.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6917724A5540354287E66C785DDF08E7A7EDACEA</string>
+	<string>C8C4A468BD32F002F5100C8EA59AED0CC22746C3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -39,6 +43,14 @@
 			<string>DDF8BD696B46438D82210EB8D44A6955CCC668E6</string>
 			<key>IDESourceControlWCCName</key>
 			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C8C4A468BD32F002F5100C8EA59AED0CC22746C3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FlappyStyleApp</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
