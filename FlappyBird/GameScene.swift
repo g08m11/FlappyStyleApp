@@ -44,21 +44,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         pipes = SKNode()
         moving.addChild(pipes)
         
-        // ground
-        let groundTexture = SKTexture(imageNamed: "land")
-        groundTexture.filteringMode = .Nearest // shorter form for SKTextureFilteringMode.Nearest
-        
-        let moveGroundSprite = SKAction.moveByX(-groundTexture.size().width * 2.0, y: 0, duration: NSTimeInterval(0.02 * groundTexture.size().width * 2.0))
-        let resetGroundSprite = SKAction.moveByX(groundTexture.size().width * 2.0, y: 0, duration: 0.0)
-        let moveGroundSpritesForever = SKAction.repeatActionForever(SKAction.sequence([moveGroundSprite,resetGroundSprite]))
-        
-        for var i:CGFloat = 0; i < 2.0 + self.frame.size.width / ( groundTexture.size().width * 2.0 ); ++i {
-            let sprite = SKSpriteNode(texture: groundTexture)
-            sprite.setScale(2.0)
-            sprite.position = CGPointMake(i * sprite.size.width, sprite.size.height / 2.0)
-            sprite.runAction(moveGroundSpritesForever)
-            moving.addChild(sprite)
-        }
+        //画面作成スタート
+        //ここにはコードが入ります
+        //ここにはコードが入ります
+        //画面作成エンド
         
         // skyline
         let skyTexture = SKTexture(imageNamed: "sky")
@@ -96,28 +85,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         let spawnThenDelayForever = SKAction.repeatActionForever(spawnThenDelay)
         self.runAction(spawnThenDelayForever)
         
-        // setup our bird
-        let birdTexture1 = SKTexture(imageNamed: "bird-01")
-        birdTexture1.filteringMode = .Nearest
-        let birdTexture2 = SKTexture(imageNamed: "bird-02")
-        birdTexture2.filteringMode = .Nearest
+        //FlappyBird作成スタート
+        //ここにはコードが入ります
+        //ここにはコードが入ります
+        //FlappyBird作成エンド
         
-        let anim = SKAction.animateWithTextures([birdTexture1, birdTexture2], timePerFrame: 0.2)
-        let flap = SKAction.repeatActionForever(anim)
-        
-        bird = SKSpriteNode(texture: birdTexture1)
-        bird.setScale(2.0)
-        bird.position = CGPoint(x: self.frame.size.width * 0.35, y:self.frame.size.height * 0.6)
-        bird.runAction(flap)
-        
-        
-        bird.physicsBody = SKPhysicsBody(circleOfRadius: bird.size.height / 2.0)
-        bird.physicsBody?.dynamic = true
-        bird.physicsBody?.allowsRotation = false
-        
-        bird.physicsBody?.categoryBitMask = birdCategory
-        bird.physicsBody?.collisionBitMask = worldCategory | pipeCategory
-        bird.physicsBody?.contactTestBitMask = worldCategory | pipeCategory
         
         self.addChild(bird)
         
