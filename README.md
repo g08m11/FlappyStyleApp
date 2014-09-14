@@ -15,7 +15,7 @@ Swiftでのゲーム開発を行うトレーニングです。
 ## 目次
 * [Flappy Birdとは](https://github.com/g08m11/FlappyStyleApp/wiki/%EF%BC%91%E3%83%BB%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92%E8%90%BD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%82%87%E3%81%86)
 
-  *  [1-1.設定が済んだプロジェクトをクローンしよう！](https://github.com/g08m11/FlappyStyleApp/wiki/Flappy-Bird%E3%81%A8%E3%81%AF%EF%BC%9F#sesection1)
+  *  [1-1.設定が済んだプロジェクトをクローンしよう！](https://github.com/g08m11/FlappyStyleApp/wiki/Flappy-Bird%E3%81%A8%E3%81%AF%EF%BC%9F)(#sesection1)
 
 * [Xcodeの使い方を学ぼう](https://github.com/g08m11/FlappyStyleApp/wiki/%EF%BC%91%E3%83%BB%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92%E8%90%BD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%82%87%E3%81%86)
 
