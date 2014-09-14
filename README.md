@@ -8,7 +8,7 @@ Swiftでのゲーム開発を行うトレーニングです。
 １・Xcode6 GM seedをインストール済みであること
 
 ## ゴール
-以下のようなゲームを作成します。
+以下のようなFlappy birdにちなんだ「Flappy Zigexnbu」といったゲームを作成します。
 
 ![起動画面](https://github.com/g08m11/FlappyStyleApp/wiki/images/arubaito_ios_z2.gif)
 
