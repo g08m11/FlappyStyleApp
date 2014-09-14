@@ -10,6 +10,7 @@ Swiftでのゲーム開発を行うトレーニングです。
 ## ゴール
 以下のようなゲームを作成します。
 
+![起動画面](https://github.com/g08m11/FlappyStyleApp/wiki/images/arubaito_ios_z2.gif)
 
 
 ## 目次
