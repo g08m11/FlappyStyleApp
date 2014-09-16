@@ -50,9 +50,11 @@ Swiftで「webView」を使ってwebアプリを表示するトレーニング�
 ## ゴール
 以下のようなwebViewを使ったアプリを作成します。
 
+![swift_2.gif](https://qiita-image-store.s3.amazonaws.com/0/15812/a06135aa-1dcb-167e-49ec-d99ed4cffbe5.gif)
+
 
 ## 目次
-* [webViewとは](https://github.com/g08m11/FlappyStyleApp/wiki/%EF%BC%91%E3%83%BB%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92%E8%90%BD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%82%87%E3%81%86)
+* [webViewとは](https://github.com/g08m11/FlappyStyleApp/wiki/webView%E3%81%A8%E3%81%AF)
 
   *  [1-1.はじめてのプロジェクトを作成しよう]()
 
