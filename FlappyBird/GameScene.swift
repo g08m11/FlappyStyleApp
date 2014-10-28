@@ -2,8 +2,8 @@
 //  GameScene.swift
 //  FlappyBird
 //
-//  Created by g08m11 on 9/11/14.
-//  Copyright (c) 2014 g08m11 All rights reserved.
+//  Created by Nate Murray on 6/2/14.
+//  Copyright (c) 2014 Fullstack.io. All rights reserved.
 //
 
 import SpriteKit
@@ -119,8 +119,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         bird.physicsBody?.collisionBitMask = worldCategory | pipeCategory
         bird.physicsBody?.contactTestBitMask = worldCategory | pipeCategory
         
-        
-        
         self.addChild(bird)
         
         // create the ground
@@ -146,12 +144,12 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         pipePair.position = CGPointMake( self.frame.size.width + pipeTextureUp.size().width * 2, 0 )
         pipePair.zPosition = -10
         
-        let height = UInt32( self.frame.size.height / 4 )
+        let height = UInt32( UInt(self.frame.size.height / 4) )
         let y = arc4random() % height + height
         
         let pipeDown = SKSpriteNode(texture: pipeTextureDown)
         pipeDown.setScale(2.0)
-        pipeDown.position = CGPointMake(0.0, CGFloat(y) + pipeDown.size.height + CGFloat(verticalPipeGap))
+        pipeDown.position = CGPointMake(0.0, CGFloat(Double(y)) + pipeDown.size.height + CGFloat(verticalPipeGap))
         
         
         pipeDown.physicsBody = SKPhysicsBody(rectangleOfSize: pipeDown.size)
@@ -162,7 +160,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         
         let pipeUp = SKSpriteNode(texture: pipeTextureUp)
         pipeUp.setScale(2.0)
-        pipeUp.position = CGPointMake(0.0, CGFloat(y))
+        pipeUp.position = CGPointMake(0.0, CGFloat(Double(y)))
         
         pipeUp.physicsBody = SKPhysicsBody(rectangleOfSize: pipeUp.size)
         pipeUp.physicsBody?.dynamic = false
@@ -234,8 +232,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
     
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
-        
-//        bird.zRotation = Float.clamp(-1, max: 0.0, value: bird.physicsBody!.velocity.dy * (bird.physicsBody?.velocity.dy < 0 ? 0.003 : 0.001))
+        bird.zRotation = self.clamp( -1, max: 0.5, value: bird.physicsBody!.velocity.dy * ( bird.physicsBody!.velocity.dy < 0 ? 0.003 : 0.001 ) )
     }
     
     func didBeginContact(contact: SKPhysicsContact) {
