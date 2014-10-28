@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  FlappyBird
+//  FlappyStyleApp
 //
-//  Created by Nate Murray on 6/2/14.
-//  Copyright (c) 2014 Fullstack.io. All rights reserved.
+//  Created by g08m11 on 2014/10/29
+//  Copyright (c) 2014 g08m11 All rights reserved.
 //
 
 import UIKit
