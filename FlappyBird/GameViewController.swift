@@ -46,7 +46,7 @@ class GameViewController: UIViewController {
             
             skView.presentScene(scene)
           
-            // twitter部分
+            // twitterに似た色合いをコードで作る
             let hex: Int = 0x55ACEE
             let red = Double((hex & 0xFF0000) >> 16) / 255.0
             let green = Double((hex & 0xFF00) >> 8) / 255.0
