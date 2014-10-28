@@ -98,10 +98,10 @@ class GameViewController: UIViewController {
       myComposeView = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
       
       // 投稿するテキストを指定.
-      myComposeView.setInitialText("Swiftでじげんぶ動かしたでどやっ！！")
+      myComposeView.setInitialText("Swiftでゲーム動かしたでどやっ！！ #SwiftGirls")
       
       // 投稿する画像を指定.
-      myComposeView.addImage(UIImage(named: "oouchi.jpg"))
+      myComposeView.addImage(UIImage(named: "SwiftGirls.gif"))
       
       // myComposeViewの画面遷移.
       self.presentViewController(myComposeView, animated: true, completion: nil)
