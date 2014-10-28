@@ -2,8 +2,8 @@
 //  GameViewController.swift
 //  FlappyBird
 //
-//  Created by g08m11 on 9/11/14.
-//  Copyright (c) 2014 g08m11 All rights reserved.
+//  Created by Nate Murray on 6/2/14.
+//  Copyright (c) 2014 Fullstack.io. All rights reserved.
 //
 
 import UIKit
@@ -14,9 +14,9 @@ extension SKNode {
         
         let path = NSBundle.mainBundle().pathForResource(file, ofType: "sks")
         
-        let sceneData = NSData.dataWithContentsOfFile(path!, options: .DataReadingMappedIfSafe, error: nil)
+        let sceneData = NSData(contentsOfFile: path!, options: .DataReadingMappedIfSafe, error: nil)!
         let archiver = NSKeyedUnarchiver(forReadingWithData: sceneData)
-        
+      
         archiver.setClass(self.classForKeyedUnarchiver(), forClassName: "SKScene")
         let scene = archiver.decodeObjectForKey(NSKeyedArchiveRootObjectKey) as GameScene
         archiver.finishDecoding()
@@ -51,9 +51,9 @@ class GameViewController: UIViewController {
 
     override func supportedInterfaceOrientations() -> Int {
         if UIDevice.currentDevice().userInterfaceIdiom == .Phone {
-            return Int(UIInterfaceOrientationMask.AllButUpsideDown.toRaw())
+            return Int(UIInterfaceOrientationMask.AllButUpsideDown.rawValue)
         } else {
-            return Int(UIInterfaceOrientationMask.All.toRaw())
+            return Int(UIInterfaceOrientationMask.All.rawValue)
         }
     }
 
